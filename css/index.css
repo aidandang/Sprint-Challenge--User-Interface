@@ -66,6 +66,45 @@ p {
     line-height: 1.4;
 }
 
+/* ------------------------------------- header layout ---------------------------- */
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.nav-container {
+    padding-top: 20px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
+.nav-links {
+	display: flex;
+	flex-flow: row nowrap;
+	width: 70%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nav-link a {
+	text-decoration: none;
+	color: black;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.nav-link a:hover {
+	color: blue;
+}
+
+.jumbo {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* -------------------------------------- end header layout ------------------------------- */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -111,6 +150,40 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/* -------------------------------- Change colors of 10 boxes ------------------- */
+.middle-content .boxes .box-1 {
+    background-color: teal;
+}
+.middle-content .boxes .box-2 {
+    background-color: gold;
+}
+.middle-content .boxes .box-3 {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box-4 {
+    background-color: coral;
+}
+.middle-content .boxes .box-5 {
+    background-color: crimson;
+}
+.middle-content .boxes .box-6 {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box-7 {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box-8 {
+    background-color: hotpink;
+}
+.middle-content .boxes .box-9 {
+    background-color: indigo;
+}
+.middle-content .boxes .box-10 {
+    background-color: dodgerblue;
+}
+
+/* -------------------------- End -------------------------------------------- */
 
 .bottom-content {
     display: flex;
