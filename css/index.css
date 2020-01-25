@@ -144,9 +144,7 @@ header {
     justify-content: space-between;
 }
 
-.plan-container, .working-container, .office-container, .meeting-container {
-    display: flex;
-    flex-flow: column nowrap;
+.main-container {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 48%;
